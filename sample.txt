@@ -2,7 +2,7 @@ var int x = scan(stdin);
 var int y;
 
 func quadrado(int _x) -> int{
-    new int _y = _x**2;
+    var int _y = _x**2;
     return _y;
 }
 y=quadrado(x);
