@@ -1,0 +1,44 @@
+            tipos:
+
+int (int64_t)
+flt (long double)
+str (char*)
+array global mallocado de struct {char* name, int64_t integer, long double flt, char* string, char type}, com tamanho predefinido no início do programa 
+macros que referem ao nome da variável no array de variáveis globais, precisam ter tipo especificado
+
+ler do stdin com scan(stdin)
+
+macro pode referenciar macro
+
+resolver macro recursivamente (lol)
+sem main (lol)
+
+variaveis e funções declaradas com "var" e "func"
+variáveis locais com "loc"
+variáveis criadas dentro de funções são automaticamente deletadas, mas devem ter nomes diferentes às externas para não causar conflito
+
+comparação de strings com "==" e nada de "strcmp" ou coisa parecida
+
+convenções: nomes de variáveis internas a funções começam com "_"
+
+exemplos:
+
+var int x = in;
+var int y;
+
+func quadrado(int _x) -> int{
+    new int _y = _x**2;
+    return _y;
+}
+y=quadrado(x);
+
+clear(x);
+clear(y);
+
+var str amogus=scan(stdin);
+
+if (amogus=="sus"){
+    print("SUS", "\nVERY VERY", " SUS");
+}
+
+clear(amogus);
