@@ -24,3 +24,31 @@ x=1;
 @y++;
 /* x é 2 */
 y++; /* erro de sintaxe */
+
+clear(x);
+clear(y);
+
+<<<<<<< fix-planejamento
+exemplos:
+
+var int x = in;
+var int y;
+
+func quadrado(int _x) -> int{
+    var int _y = _x**2;
+    return _y;
+}
+y=quadrado(x);
+
+clear(x);
+clear(y);
+
+var str amogus=scan(stdin);
+
+if (amogus=="sus"){
+    print("SUS", "\nVERY VERY", " SUS");
+}
+
+=======
+>>>>>>> main
+clear(amogus);
