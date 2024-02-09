@@ -17,3 +17,10 @@ if (amogus=="sus"){
 }
 
 clear(amogus);
+
+var flt x;
+var macro flt y: x;
+x=1;
+@y++;
+/* x é 2 */
+y++; /* erro de sintaxe */

@@ -21,24 +21,4 @@ comparação de strings com "==" e nada de "strcmp" ou coisa parecida
 
 convenções: nomes de variáveis internas a funções começam com "_"
 
-exemplos:
-
-var int x = in;
-var int y;
-
-func quadrado(int _x) -> int{
-    new int _y = _x**2;
-    return _y;
-}
-y=quadrado(x);
-
-clear(x);
-clear(y);
-
-var str amogus=scan(stdin);
-
-if (amogus=="sus"){
-    print("SUS", "\nVERY VERY", " SUS");
-}
-
 clear(amogus);
