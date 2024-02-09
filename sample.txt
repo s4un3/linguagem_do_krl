@@ -31,7 +31,7 @@ clear(y);
 <<<<<<< fix-planejamento
 exemplos:
 
-var int x = in;
+var int x = scan(stdin);
 var int y;
 
 func quadrado(int _x) -> int{
