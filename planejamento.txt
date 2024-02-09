@@ -21,4 +21,4 @@ comparação de strings com "==" e nada de "strcmp" ou coisa parecida
 
 convenções: nomes de variáveis internas a funções começam com "_"
 
-clear(amogus);
+              mudei "exemplos" pro txt dos exemplos
